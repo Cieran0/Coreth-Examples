@@ -1,0 +1,7 @@
+main:
+    mov_mem_u64_u64 0 0x57202c6f6c6c6548
+    mov_mem_u64_u64 8 0x00000a21646c726f
+    mov_reg_u64 $RDX 14
+    mov_reg_u64 $RAX 1
+    syscall
+    ret
